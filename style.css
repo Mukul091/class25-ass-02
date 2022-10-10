@@ -1,0 +1,187 @@
+.services-section {
+    background-color: #f6f9fc;
+    height: 822px;
+    z-index: 1;
+}
+.seervice-text{
+   
+}
+.seervice-text h6 {
+    color: #7e96f3;
+    text-transform: uppercase;
+   
+}
+.seervice-text h2 {
+    font-weight: 700;
+    position: relative;
+}
+.seervice-text h2::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 10%;
+    background-color: #6788ef;
+    left: 327px;
+    top: 49px;
+    border-radius: 63px;
+}
+.seervice-text p {
+    width: 586px;
+    margin: auto;
+}
+
+.table-item {
+    width: 361px;
+    margin: auto;
+    height: 486px;
+    background: #fff;
+    position: relative;
+
+    transition: .4s;
+}
+.table-item h3 {
+    margin-left: 116px;
+    position: absolute;
+    top: 26px;
+}
+.table-item h1 {
+    position: relative;
+    top: 81px;
+    left: 130px;
+}
+.table-item h1::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 44%;
+    background-color: #ddd;
+    left: -28px;
+    top: 101px;
+}
+.table-item p {
+    position: absolute;
+    width: 146px;
+    text-align: center;
+    top: 222px;
+    left: 104px;
+    font-size: 19px;
+}
+.table-item a {
+    position: relative;
+    top: 343px;
+    left: 104px;
+    border-radius: 28px;
+    border: none;
+    padding: 12px 20px;
+    z-index: 1;
+}
+
+.table-item:hover{
+    background-color: #6788ef;
+    color: #fff;
+}
+.table-item:hover a{
+    background-color: #fff;
+    color: #6788ef;
+}
+.table-item a::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #3065f5;
+    border-radius: 28px;
+    transition: .4s;
+    z-index: -1;
+} 
+.table-item a:hover::after{
+    width: 100%;
+}
+
+.banner-section{
+    background-image: url(https://i.ibb.co/g3T9TSD/free-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 489px;
+    position: relative;
+}
+.banner-section::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #2e54c4ca;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+.serh {
+    margin-top: 103px;
+}
+.serhh {
+    width: 604px;
+    margin: auto;
+}
+.seervice-text h2.serhh::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 11%;
+    background-color: #fff;
+    left: 246px;
+    top: 93px;
+    border-radius: 63px;
+}
+.serp {
+    font-weight: 600;
+}
+.sera {
+    margin-top: 25px;
+    position: relative;
+}
+.sera ::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #3065f5;
+    border-radius: 28px;
+    transition: .4s;
+    z-index: -1;
+} 
+
+.subscribe-section{
+    background-color: #f8f9fa;
+}
+.subscribe {
+    background: #0d6efd;
+    padding: 42px;
+    color: #fff;
+    border-radius: 5px;
+}
+input#exampleInputEmail1 {
+    width: 342px;
+}
+button.btn.btn-primary {
+    margin-left: 400px;
+    margin-top: -70px;
+    border: 2px solid;
+    font-weight: bold;
+}
+.subscribe h3{}
+.subscribe p{}
+
+.subscribe-letter {
+    background: #fff;
+    padding: 23px;
+    height: 251px;
+}
+.subscribe-letter h4{}
+a.btn.btn-primary.bt {
+    margin-top: 72px;
+}
